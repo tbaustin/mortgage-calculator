@@ -1,3 +1,22 @@
+input {
+	padding: 5px 20px;
+	text-align: center;
+	font-size: 20px;
+	outline: none;
+	border: none;
+}
+
+.compareBtn {
+	color: #fff;
+	background: lightcoral;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+}
+
 .App {
   text-align: center;
 }
@@ -17,11 +36,15 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-flow: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+	color: white;
+}
+
+.App-header section {
+	margin: 20px;
 }
 
 .App-link {
